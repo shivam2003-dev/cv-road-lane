@@ -64,3 +64,13 @@ Log baseline first, then start iterating.
 
 ## Stopping criteria
 Run at least 15 experiments. Stop when score has not improved for 5 consecutive runs.
+
+## Video Scoring (new)
+Run `python3 video_pipeline.py --input all` to get temporal metrics.
+
+| Metric | Description |
+|--------|-------------|
+| detection_rate | Fraction of frames with both lanes detected |
+| temporal_consistency | 1 - (slope_std_left + slope_std_right) — higher = smoother |
+
+For video optimization: focus on EMA_ALPHA (0.7–0.95) and RANSAC_THRESHOLD.

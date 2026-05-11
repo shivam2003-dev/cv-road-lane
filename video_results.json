@@ -1,0 +1,38 @@
+[
+  {
+    "input": "data/udacity_lanes/test_videos/challenge.mp4",
+    "output": "data/udacity_lanes/test_videos_output/challenge_annotated.mp4",
+    "total_frames": 251,
+    "detected_frames": 251,
+    "detection_rate": 1.0,
+    "temporal_consistency": 0.9181,
+    "slope_std_left": 0.05226,
+    "slope_std_right": 0.02959,
+    "fps_avg": 39.7,
+    "duration_s": 6.32
+  },
+  {
+    "input": "data/udacity_lanes/test_videos/solidWhiteRight.mp4",
+    "output": "data/udacity_lanes/test_videos_output/solidWhiteRight_annotated.mp4",
+    "total_frames": 221,
+    "detected_frames": 221,
+    "detection_rate": 1.0,
+    "temporal_consistency": 0.9222,
+    "slope_std_left": 0.04331,
+    "slope_std_right": 0.03449,
+    "fps_avg": 101.0,
+    "duration_s": 2.19
+  },
+  {
+    "input": "data/udacity_lanes/test_videos/solidYellowLeft.mp4",
+    "output": "data/udacity_lanes/test_videos_output/solidYellowLeft_annotated.mp4",
+    "total_frames": 681,
+    "detected_frames": 681,
+    "detection_rate": 1.0,
+    "temporal_consistency": 0.94,
+    "slope_std_left": 0.03419,
+    "slope_std_right": 0.0258,
+    "fps_avg": 98.5,
+    "duration_s": 6.91
+  }
+]
